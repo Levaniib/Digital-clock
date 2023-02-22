@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Mynerve&family=Poppins&family=Red+Hat+Display&family=Ubuntu&display=swap');
+
+
+body {
+    background-image: url("High_resolution_wallpaper_background_ID_77701231916.jpeg");
+    max-width: 1440px;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+  }
+
+#clock{
+    max-width: 1440px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    
+}
+
+.hour{
+    height: 250px;
+    width: 200px;
+    border: 5px solid rgb(0, 0, 0);
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(138, 255, 173);
+    border-radius: 15px;
+    
+}
+
+.min{
+    height: 250px;
+    width: 200px;
+    border: 5px solid rgb(0, 0, 0);
+    /* background-color: rgb(95, 95, 95); */
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.sec{
+    height: 250px;
+    width: 200px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: rgb(240, 133, 79);
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.Digital{
+    position: absolute;
+    left: 530px;
+    font-size: 60px;
+    top: 180px;
+    font-family: 'Barlow', sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.AM{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(240, 133, 79);
+    position: absolute;
+    left: 1055px;
+    bottom: 235px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    border: 3px black solid;
+
+}
